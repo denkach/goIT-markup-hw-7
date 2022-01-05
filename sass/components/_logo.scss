@@ -1,0 +1,24 @@
+.logo {
+  margin-right: 93px;
+
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $secondary-text-color;
+
+  &--footer {
+    display: inline-block;
+    padding-top: 60px;
+
+    color: $primary-bg-color;
+  }
+}
+
+/* оформление спана в логотипе */
+
+.logo__span {
+  color: $accent-color;
+}

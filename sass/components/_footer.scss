@@ -1,0 +1,68 @@
+.footer {
+  background-color: $hero-bg-color;
+  color: $footer-text-color;
+}
+
+.footer__container {
+  display: flex;
+  padding: 0px 15px;
+}
+
+.footer__address-div {
+  max-width: 231px;
+}
+
+.footer__title,
+.subscribe__title {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 20px;
+  padding-top: 72px;
+}
+
+/* стили для содержимого address */
+
+.footer__address {
+  margin-top: 20px;
+
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: $primary-bg-color;
+  font-style: normal;
+}
+
+/* стили для ссылок в футере */
+
+.footer__contacts {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-bottom: 60px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: inherit;
+
+  transition: color 250ms $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.footer__contact {
+  margin-top: 9px;
+}
+
+.footer__join {
+  margin-left: 70px;
+}

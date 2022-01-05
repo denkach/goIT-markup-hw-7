@@ -1,0 +1,43 @@
+.benefits__title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: $secondary-text-color;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.benefits__container {
+  padding: 94px 15px 0px;
+}
+
+/* абзацы в секции benefits */
+
+.benefits__text {
+  margin-top: 10px;
+
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.benefits__item {
+  margin-right: 30px;
+}
+
+.benefits__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits__svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
